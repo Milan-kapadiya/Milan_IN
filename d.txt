@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main() {
+    int a = 12;
+    int b = 6;
+    
+    int answer;
+    int sub;
+    int mult;
+    int Divi;
+    int modu;
+   
+    answer = a+b;
+    sub =a-b;
+    mult =a*b;
+    Divi=a/b;
+    modu =a%b;
+    
+    printf("Addition of %d and %d is %d",a,b,answer);
+    printf("\n Subtraction of %d and %d is %d", a,b,sub);
+    printf("\n Multiplication of %d and %d is %d", a,b,mult);
+    printf("\n Division of %d and %d is %d", a,b,Divi);
+    printf("\n Moduler of %d and %d is %d \n", a,b,modu);
+    
+    printf("\n %d + %d = %d ",a,b,answer);
+    printf("\n %d + %d = %d ",a,b,sub);
+    printf("\n %d + %d = %d ",a,b,mult);
+    printf("\n %d + %d = %d ",a,b,Divi);
+    printf("\n %d + %d = %d ",a,b,modu);
+     
+     
+
+    
+}
